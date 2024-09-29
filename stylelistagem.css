@@ -1,0 +1,23 @@
+h1 {
+    font-family: Arial, sans-serif;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+
+

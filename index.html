@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estacionamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Controle de Estacionamento</h1>
+
+        <form id="cadastro">
+
+            <label>Placa do Veículo: </label>
+            <input type="text" id="placa" placeholder="Digite a placa do veículo"/>
+
+
+            <label>Proprietário: </label>
+            <input type="text" id="nome" placeholder="Digite o nome do Proprietário"/>
+
+
+            <label>Apartamento: </label>
+            <input type="number" id="apto" placeholder="Digite o número do Apartamento"/>
+
+
+            <label>Bloco: </label>
+            <input type="number" id="bloco" placeholder="Digite o número do Bloco do Apartamento"/>
+
+
+            <label>Veículo: </label>
+            <input type="text" id="modelo" placeholder="Digite o modelo do veículo"/>
+
+
+            <label>Cor do Veículo: </label>
+            <input type="text" id="cor" placeholder="Digite o a cor do veículo"/>
+
+            <label>Vaga de Estacionamento: </label>
+            <input type="number" id="vaga" placeholder="Digite o número da vaga do estacionamento"/>
+
+            <button onclick="salvar()">Salvar</button>
+
+        </form>
+
+        <a href="listagem.html" target="_blank">Verificar listagem de vagas</a>
+
+    </div>
+
+</body>
+</html>
